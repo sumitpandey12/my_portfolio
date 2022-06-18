@@ -13,7 +13,7 @@ class MyHome extends StatelessWidget {
       body: Column(children: [
         "Sumit\nPandey".text.xl4.make(),
       ]),
-      drawer: Drawer(),
+      drawer: const Drawer(),
     );
   }
 }
