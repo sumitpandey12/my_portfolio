@@ -13,7 +13,11 @@ class LargeScreen extends StatelessWidget {
         Expanded(
             flex: 5,
             child: Container(
-              color: Colors.blue,
+              child: Stack(children: [
+                Image.asset(
+                  "assets/wall.png",
+                ),
+              ]),
             )),
       ],
     );
